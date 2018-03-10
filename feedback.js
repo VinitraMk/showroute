@@ -1,5 +1,5 @@
 var MongoClient = require('mongodb').MongoClient;
 
-module.export=function() {
+module.exports=function() {
     console.log(MongoClient);
 };

@@ -5,8 +5,8 @@ var express=require('express');
 var bodyparser=require('body-parser');
 var apiai=require('apiai');
 var app=express();
-var feedback=require('./feedback.js')();
-//feedback();
+var feedback=require('./feedback.js');
+feedback();
 
 
 // var MongoClient = require('mongodb').MongoClient;
