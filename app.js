@@ -104,7 +104,9 @@ app.get('/',function(req,res) {
     res.send('hello');
 })
 
-
+app.get('testing',(req,res)=>{
+  res.send('testing the endpoint')
+})
 var server=app.listen(port,function() {
     var host=server.address().address;
     var port=server.address().port;
