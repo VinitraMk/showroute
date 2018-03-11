@@ -97,10 +97,14 @@ app.post('/ai', (req, res) => {
   console.log(req.body.result);
         // console.log(req.body.result)
   var str=JSON.stringify(req.body.result.parameters);
-    return res.json({
+    /*return res.json({
       speech: str,
       displayText: "dummy value"
-    });
+    });*/
+  res.send(JSON.stringify({
+      "speech":str,
+      "displayText":"dummy value"
+  }));
 });
 
 app.get('/',function(req,res) {
