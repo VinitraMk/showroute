@@ -36,6 +36,7 @@ app.get('/webhook', (req, res) => {
 /* Handling all messenges */
 
 app.post('/webhook', (req, res) => {
+    console.log('webhook');
   if (req.body.object === 'page') {
       console.log('page');
     req.body.entry.forEach((entry) => {
