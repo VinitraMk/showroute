@@ -1,7 +1,7 @@
 //var PAGE_ACCESS_TOKEN =  process.env.PAGE_ACCESS_TOKEN;
 //var APIAI_TOKEN = process.env.APIAI_TOKEN;
 var PAGE_ACCESS_TOKEN="EAAWkJ8cZAZCpUBABttsI5sZCE6dLDDoQ4nwSTrUlCWDOSeCFcDeeJdV9QPZBEmaCPdipzg4ZBKB7Grh8NWEg8gPtBmcwgcwly73xJuhUdHz5j4JSDERsJ1ZCiusQqIYohbZCph9BIPylDcJBixZCRZBB0ZCPPE3Pza5aC6vQ7QrlcRFspvM0Tz8fI6"
-var APIAI_TOKEN="e649f8bb7b244a3b832c62d4e3c861eb"
+var APIAI_TOKEN="be232749e2d540c092d472860a45b513"
 
 var express=require('express');
 var bodyparser=require('body-parser');
