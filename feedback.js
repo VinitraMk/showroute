@@ -1,5 +1,6 @@
 var MongoClient = require('mongodb').MongoClient;
 
-module.exports=function() {
-    console.log(MongoClient);
+module.exports.addToDb=function(feedback) {
+    console.log(feedback);
+
 };

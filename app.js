@@ -96,10 +96,11 @@ app.post('/ai', (req, res) => {
   console.log('*** Webhook for api.ai query ***');
   console.log(req.body.result);
         // console.log(req.body.result)
-        return res.json({
-          speech: JSON.stringify(req.body.result.parameters),
-          displayText: "dummy value"
-        });
+  var str=JSON.stringify(req.body.result.parameters);
+    return res.json({
+      speech: str,
+      displayText: "dummy value"
+    });
 });
 
 app.get('/',function(req,res) {
